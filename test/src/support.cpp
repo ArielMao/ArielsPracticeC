@@ -3,5 +3,5 @@
 extern int count2;
 
 void write_extern(){
-  printf("count2 is %d\n", count2);
+  printf("从support.cpp定义的函数输出：\ncount2 is %d\n", count2);
 }
